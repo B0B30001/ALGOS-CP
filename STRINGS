@@ -1,0 +1,9 @@
+HASHES
+//base = 31
+b[N] = powers of base
+h[N] = hash
+
+b[i] = b[i-1]*base// base can be any prime base there even can be multiple bases kinda like this b[j][i]  = b[j][i-1]*base[j]
+
+h[i] = h[i-1]*base+s[i];
+
